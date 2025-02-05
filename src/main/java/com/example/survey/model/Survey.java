@@ -3,7 +3,7 @@ package com.example.survey.model;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
-import java.util.List; // Add this import statement
+import java.util.List; 
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
@@ -116,8 +116,6 @@ public class Survey {
     public void setCreatedBy(String createdBy) {
         this.createdBy = createdBy;
     }
-
-    // Keep your existing getters and setters for id, title, description, and questions
 
     // Getters and Setters
     public Long getId() {
